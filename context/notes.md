@@ -1,0 +1,1 @@
+Contains context that will be used in the app; like context for Authentication.

@@ -1,0 +1,1 @@
+Hold components which are used globally in your app

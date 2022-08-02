@@ -1,0 +1,41 @@
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 99;
+}
+
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw;
+  height: var(--header-height);
+
+  &__logo{
+    font-size: 2rem;
+    font-weight: 300;
+    z-index: 9;
+
+  }
+  &__toggle{
+    z-index: 9;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    transition: .45s ease-in-out;
+    &:hover{
+      cursor: pointer;
+    }
+
+    &-icon{
+      font-size: 1.6rem;
+    }
+  }
+}

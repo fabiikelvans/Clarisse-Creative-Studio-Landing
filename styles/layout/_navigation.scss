@@ -1,0 +1,42 @@
+.menu-wrapper{
+  display: none;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+.menu{
+  background: #fff;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+
+  &__items{
+    text-align: center;
+    margin-top: 30vh;
+
+  }
+  &__item{
+    margin: 10vh 0;
+    font-size: 1.2rem;
+    &:hover{
+      color: #ce8c4e;
+      transition: .45s ease-in-out;
+    }
+
+  }
+  &-secondary-background-color{
+    background: #f8bd7f;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+}

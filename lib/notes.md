@@ -1,0 +1,1 @@
+This is used for pointing out third-party libraries and wrapping it in your own way to make it easy for using it around the entire app and updating it from one place.

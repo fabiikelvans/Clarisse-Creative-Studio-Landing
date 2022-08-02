@@ -1,0 +1,1 @@
+Responsive for the struture/layout of your app. Things that are mostly used within the app like, Navbar, Sidebar, Footer, ScrollUp

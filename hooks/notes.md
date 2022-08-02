@@ -1,0 +1,1 @@
+Contains custom hooks that is reused globally within the app for clean and maintainable code

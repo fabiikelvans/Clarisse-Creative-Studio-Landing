@@ -1,0 +1,1 @@
+Good for storing json files and constants used in the app
